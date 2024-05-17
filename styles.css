@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #d1e7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    background: #87CEEB;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add this */
+}
+
+.header, .footer {
+    background: #006994;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header {
+    border-bottom: 2px solid #004d73;
+}
+
+.footer {
+    border-top: 2px solid #004d73;
+    justify-content: space-around;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative; /* Add this */
+    
+}
+
+.main h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.graphics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Add this */
+}
+
+.graphics img {
+    width: 300px;
+    margin: 10px 0;
+}
+
+.bigpic {
+    width: 300px; /* Change to match container width */
+}
+
+.invisible-button {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    opacity: 0;
+}
+
+.fish1-button {
+    top: 100px; /* Adjust position */
+    left: 0px; /* Adjust position */
+}
+
+.fish2-button {
+    top: 25px; /* Adjust position */
+    right: 0px; /* Adjust position */
+}
+
+.turtle-button {
+    top: 200px; /* Adjust position */
+    left: 140px; /* Adjust position */
+}
+
+.fish3-button {
+    top: 285px; /* Adjust position */
+    left: 2px; /* Adjust position */
+}
+
+.nav-item {
+    font-size: 24px;
+    cursor: pointer;
+}
